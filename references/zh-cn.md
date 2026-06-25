@@ -90,6 +90,30 @@
 
 上架前不要只检查故事是否写完，还要检查角色是否一致、封面是否适合缩略图、关键词是否符合父母搜索意图、PDF 是否满足印刷要求。
 
+## 生产工作台效果示意
+
+![Production workbench example](../assets/production-workbench.png)
+
+这个 Skill 的 v2 版本更适合当作“绘本生产工作台”：先整理角色设定，再做逐页分镜，然后批量生成插图提示词，最后进入排版和 KDP 检查。
+
+## 绘本成品示意
+
+![Sample picture book spread](../assets/sample-spread.png)
+
+上图展示的是目标成品感：左页可以是完整场景插图，右页可以保留文字区或局部插图区，方便在 Canva 或 Book Brush 中排版。
+
+## 角色一致性示意
+
+![Character bible example](../assets/character-bible.svg)
+
+如果用户上传角色设定图，Skill 应该先提取固定特征，再生成“角色一致性锚点”，后续每一页插图 Prompt 都重复这个锚点。
+
+## 分镜到排版示意
+
+![Storyboard to layout example](../assets/storyboard-layout.svg)
+
+每页不只是写一句 Prompt，而是拆成：手稿文字、画面动作、角色、情绪、构图、道具、连续性备注、文字摆放区域。
+
 ## 完整流程示例
 
 ```text

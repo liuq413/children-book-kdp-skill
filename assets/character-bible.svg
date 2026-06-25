@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">Character consistency bible example</title>
+  <desc id="desc">A visual example of turning character reference images into repeatable consistency anchors for children's book illustration prompts.</desc>
+  <defs>
+    <style>
+      .h{font:700 42px Arial, sans-serif;fill:#0F172A}
+      .s{font:400 21px Arial, sans-serif;fill:#475569}
+      .t{font:700 23px Arial, sans-serif;fill:#111827}
+      .b{font:400 17px Arial, sans-serif;fill:#64748B}
+      .tag{font:700 16px Arial, sans-serif;fill:#334155}
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="760" fill="#FFF7ED"/>
+  <text class="h" x="72" y="76">Character Bible: Keep Every Page Consistent</text>
+  <text class="s" x="74" y="112">Reference images become short repeatable anchors for every illustration prompt.</text>
+  <g transform="translate(82 170)" filter="url(#shadow)">
+    <rect width="320" height="460" rx="24" fill="#FFFFFF"/>
+    <text class="t" x="30" y="48">Reference sheet</text>
+    <circle cx="160" cy="172" r="78" fill="#FDE68A"/>
+    <ellipse cx="130" cy="98" rx="22" ry="58" fill="#FFFFFF" stroke="#F9A8D4" stroke-width="8"/>
+    <ellipse cx="190" cy="98" rx="22" ry="58" fill="#FFFFFF" stroke="#F9A8D4" stroke-width="8"/>
+    <circle cx="160" cy="170" r="64" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="4"/>
+    <circle cx="138" cy="162" r="6" fill="#111827"/>
+    <circle cx="182" cy="162" r="6" fill="#111827"/>
+    <path d="M142 190c16 14 36 14 52 0" fill="none" stroke="#F97316" stroke-width="6" stroke-linecap="round"/>
+    <rect x="92" y="246" width="136" height="112" rx="28" fill="#FDE68A"/>
+    <rect x="116" y="274" width="88" height="48" rx="16" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="160" cy="298" r="12" fill="#F59E0B"/>
+    <text class="b" x="54" y="408">front / side / back views</text>
+  </g>
+  <path d="M438 400h114" stroke="#F97316" stroke-width="10" stroke-linecap="round"/>
+  <path d="M535 372l44 28-44 28" fill="none" stroke="#F97316" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(620 170)" filter="url(#shadow)">
+    <rect width="560" height="460" rx="24" fill="#FFFFFF"/>
+    <text class="t" x="34" y="48">Reusable consistency anchor</text>
+    <rect x="34" y="82" width="492" height="58" rx="18" fill="#FEF3C7"/>
+    <text class="tag" x="58" y="118">奶白小兔 · 淡粉耳尖 · 黄色背带裙 · 星星口袋</text>
+    <rect x="34" y="168" width="220" height="72" rx="16" fill="#DBEAFE"/>
+    <text class="t" x="56" y="199">Fixed features</text>
+    <text class="b" x="56" y="225">fur, ears, outfit, scale</text>
+    <rect x="306" y="168" width="220" height="72" rx="16" fill="#DCFCE7"/>
+    <text class="t" x="328" y="199">Expression range</text>
+    <text class="b" x="328" y="225">shy, curious, proud</text>
+    <rect x="34" y="270" width="220" height="72" rx="16" fill="#FCE7F3"/>
+    <text class="t" x="56" y="301">Do not change</text>
+    <text class="b" x="56" y="327">colors, accessory, shape</text>
+    <rect x="306" y="270" width="220" height="72" rx="16" fill="#EDE9FE"/>
+    <text class="t" x="328" y="301">Prompt use</text>
+    <text class="b" x="328" y="327">repeat on every page</text>
+    <path d="M68 390h416" stroke="#CBD5E1" stroke-width="8" stroke-linecap="round"/>
+    <path d="M68 420h330" stroke="#CBD5E1" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -55,10 +55,15 @@ children-book-kdp-skill/
     workflow.svg
     prompt-system.svg
     kdp-checklist.svg
+    production-workbench.png
+    sample-spread.png
+    character-bible.svg
+    storyboard-layout.svg
   agents/
     openai.yaml
   references/
     kdp-production-guide.md
+    production-workbench.md
     prompt-templates.md
     usage-examples.md
     zh-cn.md
@@ -147,6 +152,26 @@ For example requests, see [references/usage-examples.md](references/usage-exampl
 The skill is designed as a practical production pipeline, not just a prompt collection.
 
 ![12-step workflow](assets/workflow.svg)
+
+## Production Workbench Examples
+
+The v2 workflow is meant to behave like a production desk for a real picture book project: define characters, plan pages, generate prompts in batches, review images, and assemble a KDP-ready book.
+
+![Production workbench example](assets/production-workbench.png)
+
+Here is the kind of picture-book spread this workflow is designed to help produce and organize.
+
+![Sample picture book spread](assets/sample-spread.png)
+
+Character reference images are converted into repeatable anchors so every page can preserve the same outfit, colors, body shape, and expression range.
+
+![Character bible example](assets/character-bible.svg)
+
+Each manuscript page becomes a storyboard row, then an image prompt, then a layout instruction for Canva or Book Brush.
+
+![Storyboard to layout example](assets/storyboard-layout.svg)
+
+## Prompt And KDP Checks
 
 The prompt system reuses a small set of book variables across story, art, listing, and print checks.
 

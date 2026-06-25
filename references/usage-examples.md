@@ -174,3 +174,30 @@ Expected response:
 9. Next Actions
 ```
 
+## Example 8: Production Workbench With Character References
+
+User prompt:
+
+```text
+Use $children-book-kdp in production workbench mode.
+
+Book title: Cute Town
+Age range: 4-8
+Theme: self-confidence and cooperation
+Page count: 24
+Manuscript: [paste manuscript]
+Character references: [attach or describe character sheets]
+Art style: warm watercolor children's picture book
+Trim size: 8.5 x 8.5 inches
+
+Output the character consistency bible, town/world bible, storyboard table, batch illustration prompt table, three test-shot prompts, image QA checklist, Canva layout table, and KDP readiness checklist.
+```
+
+Expected response:
+
+- Character anchors extracted from references
+- Page-by-page storyboard table
+- Copy-ready image prompts for every page
+- Three test prompts before batch generation
+- Layout notes for text placement and safe margins
+- QA checklist for reviewing generated images

@@ -7,7 +7,7 @@ metadata:
 
 # Children's Book KDP
 
-Use this skill to turn a children's picture book idea into a commercially usable Amazon KDP production plan. Keep outputs practical, age-appropriate, original, and easy to reuse.
+Use this skill to turn a children's picture book idea into a commercially usable Amazon KDP production plan. Keep outputs practical, age-appropriate, original, and easy to reuse. Prefer "production workbench" outputs when the user wants to make an actual book, not just learn the workflow.
 
 ## When To Use
 
@@ -17,6 +17,7 @@ Use this skill when the user asks to:
 - Build a prompt workflow for Gemini, ChatGPT, Claude, Midjourney, Ideogram, Canva, Book Brush, or similar tools.
 - Generate or improve book ideas, story outlines, manuscripts, characters, illustration prompts, cover prompts, Amazon listings, series plans, or print-ready layout checks.
 - Review a children's book for originality, commercial appeal, keywords, categories, trim size, bleed, safe margins, or KDP readiness.
+- Convert character reference images, manuscript pages, or rough concepts into production tables: character bible, storyboard, page prompt sheet, test-shot prompts, image QA checklist, and Canva layout sheet.
 
 Do not use this skill for adult fiction, general publishing advice, or legal advice unless the request also involves a children's picture book workflow.
 
@@ -58,9 +59,28 @@ Run only the steps the user needs. For a full book pipeline, use all 12:
 12. Print specs and bleed check
 
 For copy-ready prompt blocks, read `references/prompt-templates.md`.
+For production workbench outputs, read `references/production-workbench.md`.
 For KDP production checks, output schemas, and print-readiness guidance, read `references/kdp-production-guide.md`.
 For realistic user prompts and example outputs, read `references/usage-examples.md`.
 For Chinese users, read `references/zh-cn.md` for Chinese usage notes, example prompts, and localized workflow guidance.
+
+## Production Workbench Mode
+
+Use workbench mode when the user says they want to actually produce pages, has character reference images, asks how to generate book illustrations, or wants a convenient "one-stop" output.
+
+Workbench mode should output the practical production artifacts in this order:
+
+1. Project setup sheet
+2. Character consistency bible
+3. World and location bible
+4. Page-by-page storyboard table
+5. Batch illustration prompt table
+6. Three test-shot prompts
+7. Image quality review checklist
+8. Canva or Book Brush layout table
+9. KDP readiness checklist
+
+If the user provides character images, inspect or summarize them first, then convert each character into a reusable consistency anchor before writing page prompts.
 
 ## Output Style
 
@@ -70,6 +90,7 @@ For Chinese users, read `references/zh-cn.md` for Chinese usage notes, example p
 - When reviewing publication readiness, separate "must fix" from "nice to improve".
 - If the user asks for a reusable template, provide prompt blocks rather than long explanations.
 - If the user asks for a complete pipeline, include a compact success checklist at the end.
+- If the user wants production help, output tables that can be copied into a spreadsheet or production tracker.
 - Use the user's language unless they ask for another language.
 
 ## Quality Checks
