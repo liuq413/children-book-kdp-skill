@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Children's Book KDP Skill overview</title>
+  <desc id="desc">An illustrated overview showing a children's picture book workflow from idea to Amazon KDP readiness.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#FFF7ED"/>
+      <stop offset="0.55" stop-color="#EFF6FF"/>
+      <stop offset="1" stop-color="#F0FDF4"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.16"/>
+    </filter>
+    <style>
+      .title{font:700 58px Arial, sans-serif;fill:#172554}
+      .subtitle{font:400 25px Arial, sans-serif;fill:#475569}
+      .small{font:600 22px Arial, sans-serif;fill:#334155}
+      .tiny{font:500 17px Arial, sans-serif;fill:#64748B}
+      .label{font:700 18px Arial, sans-serif;fill:#0F172A}
+    </style>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1110" cy="110" r="70" fill="#FDE68A" opacity="0.8"/>
+  <circle cx="1165" cy="175" r="36" fill="#BFDBFE" opacity="0.8"/>
+  <circle cx="138" cy="504" r="78" fill="#BBF7D0" opacity="0.75"/>
+  <g transform="translate(84 92)">
+    <text class="title" x="0" y="0">Children's Book KDP Skill</text>
+    <text class="subtitle" x="3" y="46">From story idea to picture-book prompts, listing copy, and print checks.</text>
+    <g transform="translate(0 100)">
+      <rect x="0" y="0" width="188" height="86" rx="18" fill="#FFFFFF" filter="url(#shadow)"/>
+      <text class="label" x="24" y="34">Idea</text>
+      <text class="tiny" x="24" y="62">marketable concept</text>
+      <path d="M205 43h72" stroke="#F97316" stroke-width="8" stroke-linecap="round"/>
+      <path d="M268 26l28 17-28 17" fill="none" stroke="#F97316" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="312" y="0" width="188" height="86" rx="18" fill="#FFFFFF" filter="url(#shadow)"/>
+      <text class="label" x="336" y="34">Story</text>
+      <text class="tiny" x="336" y="62">pages + manuscript</text>
+      <path d="M517 43h72" stroke="#F97316" stroke-width="8" stroke-linecap="round"/>
+      <path d="M580 26l28 17-28 17" fill="none" stroke="#F97316" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="624" y="0" width="188" height="86" rx="18" fill="#FFFFFF" filter="url(#shadow)"/>
+      <text class="label" x="648" y="34">Art</text>
+      <text class="tiny" x="648" y="62">consistent prompts</text>
+      <path d="M829 43h72" stroke="#F97316" stroke-width="8" stroke-linecap="round"/>
+      <path d="M892 26l28 17-28 17" fill="none" stroke="#F97316" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="936" y="0" width="188" height="86" rx="18" fill="#FFFFFF" filter="url(#shadow)"/>
+      <text class="label" x="960" y="34">KDP</text>
+      <text class="tiny" x="960" y="62">listing + print checks</text>
+    </g>
+  </g>
+  <g transform="translate(440 326)" filter="url(#shadow)">
+    <path d="M0 38c86-38 172-38 258 0v200c-86-38-172-38-258 0z" fill="#FFFFFF"/>
+    <path d="M258 38c86-38 172-38 258 0v200c-86-38-172-38-258 0z" fill="#FEF3C7"/>
+    <path d="M258 38v200" stroke="#CBD5E1" stroke-width="3"/>
+    <rect x="46" y="80" width="152" height="12" rx="6" fill="#94A3B8"/>
+    <rect x="46" y="112" width="132" height="12" rx="6" fill="#CBD5E1"/>
+    <rect x="46" y="144" width="160" height="12" rx="6" fill="#CBD5E1"/>
+    <circle cx="390" cy="135" r="56" fill="#F97316"/>
+    <circle cx="372" cy="120" r="8" fill="#FFF7ED"/>
+    <circle cx="410" cy="120" r="8" fill="#FFF7ED"/>
+    <path d="M369 151c22 18 48 18 70 0" fill="none" stroke="#FFF7ED" stroke-width="7" stroke-linecap="round"/>
+    <path d="M341 95c-16-44 18-70 54-50 24-28 66-12 61 30" fill="#FDBA74"/>
+  </g>
+</svg>

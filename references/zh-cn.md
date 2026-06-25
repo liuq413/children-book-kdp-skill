@@ -2,6 +2,8 @@
 
 `children-book-kdp` 是一个面向儿童绘本与 Amazon KDP 出版准备的 Codex Skill。它适合用来把一个绘本想法，拆成可执行的创作、插画、上架和印刷检查流程。
 
+![Children's Book KDP Skill overview](../assets/hero.svg)
+
 ## 适合做什么
 
 - 生成儿童绘本选题
@@ -55,6 +57,8 @@
 
 ## 12 步完整流程
 
+![12-step workflow](../assets/workflow.svg)
+
 1. 选题生成
 2. 故事结构
 3. 完整手稿
@@ -67,6 +71,24 @@
 10. 原创性与版权风险检查
 11. KDP 关键词与类目策略
 12. 印刷规格与出血线检查
+
+## 提示词系统示意
+
+![Prompt system structure](../assets/prompt-system.svg)
+
+这个 Skill 的核心不是单个万能提示词，而是把一组变量反复复用到不同环节：
+
+- 年龄段
+- 主题与教育点
+- 主角设定
+- 艺术风格
+- 尺寸与出版目标
+
+## KDP 检查示意
+
+![KDP readiness checklist](../assets/kdp-checklist.svg)
+
+上架前不要只检查故事是否写完，还要检查角色是否一致、封面是否适合缩略图、关键词是否符合父母搜索意图、PDF 是否满足印刷要求。
 
 ## 完整流程示例
 
@@ -169,4 +191,3 @@
 - 插图提示词要重复角色一致性锚点，避免每页角色变样。
 - Amazon 商品描述要写给父母看，不只是复述剧情。
 - 出版前需要人工校对、版权风险判断、KDP 最新规则核查和实体样书检查。
-

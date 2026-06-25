@@ -1,5 +1,7 @@
 # Children's Book KDP Skill
 
+![Children's Book KDP Skill overview](assets/hero.svg)
+
 `children-book-kdp` is a Codex Skill for creating, improving, and packaging children's picture books for Amazon KDP. It turns a rough idea into a structured workflow covering story concept, manuscript, character design, illustration prompts, cover direction, Amazon listing copy, series planning, and print-readiness checks.
 
 ## 中文说明
@@ -48,6 +50,11 @@
 children-book-kdp-skill/
   SKILL.md
   README.md
+  assets/
+    hero.svg
+    workflow.svg
+    prompt-system.svg
+    kdp-checklist.svg
   agents/
     openai.yaml
   references/
@@ -134,6 +141,20 @@ For KDP production guidance, see [references/kdp-production-guide.md](references
 For example requests, see [references/usage-examples.md](references/usage-examples.md).
 
 中文使用说明见 [references/zh-cn.md](references/zh-cn.md)。
+
+## Visual Overview
+
+The skill is designed as a practical production pipeline, not just a prompt collection.
+
+![12-step workflow](assets/workflow.svg)
+
+The prompt system reuses a small set of book variables across story, art, listing, and print checks.
+
+![Prompt system structure](assets/prompt-system.svg)
+
+KDP readiness includes story quality, visual consistency, listing quality, and print production checks.
+
+![KDP readiness checklist](assets/kdp-checklist.svg)
 
 ## Example Prompts
 

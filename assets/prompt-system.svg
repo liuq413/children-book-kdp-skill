@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Prompt system structure</title>
+  <desc id="desc">A diagram showing how user variables feed reusable prompt templates and produce book assets.</desc>
+  <defs>
+    <style>
+      .h{font:700 44px Arial, sans-serif;fill:#0F172A}
+      .s{font:400 21px Arial, sans-serif;fill:#475569}
+      .boxh{font:700 24px Arial, sans-serif;fill:#0F172A}
+      .body{font:400 18px Arial, sans-serif;fill:#475569}
+      .chip{font:700 18px Arial, sans-serif;fill:#1E293B}
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0F172A" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="#FFFBEB"/>
+  <text class="h" x="72" y="78">How the Skill Turns Inputs Into Book Assets</text>
+  <text class="s" x="74" y="116">Fill a few variables once, then reuse them across story, art, listing, and print checks.</text>
+  <g transform="translate(82 178)" filter="url(#shadow)">
+    <rect width="300" height="390" rx="24" fill="#FFFFFF"/>
+    <text class="boxh" x="30" y="48">1. User variables</text>
+    <rect x="30" y="84" width="230" height="40" rx="20" fill="#FED7AA"/><text class="chip" x="52" y="110">Age range</text>
+    <rect x="30" y="140" width="230" height="40" rx="20" fill="#DBEAFE"/><text class="chip" x="52" y="166">Theme + lesson</text>
+    <rect x="30" y="196" width="230" height="40" rx="20" fill="#DCFCE7"/><text class="chip" x="52" y="222">Main character</text>
+    <rect x="30" y="252" width="230" height="40" rx="20" fill="#EDE9FE"/><text class="chip" x="52" y="278">Art style</text>
+    <rect x="30" y="308" width="230" height="40" rx="20" fill="#FCE7F3"/><text class="chip" x="52" y="334">Trim size</text>
+  </g>
+  <path d="M418 374h116" stroke="#F97316" stroke-width="10" stroke-linecap="round"/>
+  <path d="M516 346l44 28-44 28" fill="none" stroke="#F97316" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(590 150)" filter="url(#shadow)">
+    <rect width="280" height="450" rx="24" fill="#FFFFFF"/>
+    <text class="boxh" x="30" y="48">2. Prompt templates</text>
+    <text class="body" x="30" y="95">Idea generator</text>
+    <text class="body" x="30" y="132">Story structure</text>
+    <text class="body" x="30" y="169">Manuscript</text>
+    <text class="body" x="30" y="206">Character sheet</text>
+    <text class="body" x="30" y="243">Illustration prompts</text>
+    <text class="body" x="30" y="280">Cover prompt</text>
+    <text class="body" x="30" y="317">KDP listing</text>
+    <text class="body" x="30" y="354">Series plan</text>
+    <text class="body" x="30" y="391">Print checks</text>
+  </g>
+  <path d="M905 374h116" stroke="#F97316" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1003 346l44 28-44 28" fill="none" stroke="#F97316" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(1078 178)" filter="url(#shadow)">
+    <rect width="130" height="390" rx="24" fill="#FFFFFF"/>
+    <circle cx="65" cy="80" r="36" fill="#F97316"/>
+    <rect x="34" y="140" width="62" height="86" rx="10" fill="#DBEAFE"/>
+    <rect x="28" y="244" width="74" height="46" rx="10" fill="#DCFCE7"/>
+    <path d="M42 330h46M42 354h46" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <text class="s" x="1015" y="632">Finished assets</text>
+</svg>
