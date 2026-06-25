@@ -60,6 +60,7 @@ Run only the steps the user needs. For a full book pipeline, use all 12:
 For copy-ready prompt blocks, read `references/prompt-templates.md`.
 For KDP production checks, output schemas, and print-readiness guidance, read `references/kdp-production-guide.md`.
 For realistic user prompts and example outputs, read `references/usage-examples.md`.
+For Chinese users, read `references/zh-cn.md` for Chinese usage notes, example prompts, and localized workflow guidance.
 
 ## Output Style
 

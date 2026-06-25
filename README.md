@@ -2,6 +2,31 @@
 
 `children-book-kdp` is a Codex Skill for creating, improving, and packaging children's picture books for Amazon KDP. It turns a rough idea into a structured workflow covering story concept, manuscript, character design, illustration prompts, cover direction, Amazon listing copy, series planning, and print-readiness checks.
 
+## 中文说明
+
+这是一个用于 **儿童绘本 + Amazon KDP 出版流程** 的 Codex Skill。它可以把一个简单选题扩展成完整的绘本生产流程，包括选题、故事结构、手稿、角色设定、逐页插图提示词、封面提示词、Amazon 商品描述、系列化规划、排版建议、原创性风险检查、关键词类目策略、印刷尺寸和出血线检查。
+
+中文用户可以直接这样调用：
+
+```text
+使用 $children-book-kdp 帮我做一本 32 页儿童绘本的 KDP 完整流程。
+
+年龄段：4-8 岁
+主题：睡前焦虑
+教育点：说出自己的感受，会让害怕变小
+主角：一只害怕黑暗的小龙
+风格：温暖水彩、柔和灯光、适合亲子共读
+尺寸：8.5 x 8.5 英寸
+```
+
+也可以自然提问：
+
+```text
+帮我做一本适合 Amazon KDP 上架的儿童绘本，主题是孩子学习分享。
+```
+
+中文详细用法、示例和变量说明见：[references/zh-cn.md](references/zh-cn.md)。
+
 ## What This Skill Helps With
 
 - Generate commercial children's picture book ideas.
@@ -29,6 +54,7 @@ children-book-kdp-skill/
     kdp-production-guide.md
     prompt-templates.md
     usage-examples.md
+    zh-cn.md
 ```
 
 ## Installation
@@ -106,6 +132,8 @@ For copy-ready prompt blocks, see [references/prompt-templates.md](references/pr
 For KDP production guidance, see [references/kdp-production-guide.md](references/kdp-production-guide.md).
 
 For example requests, see [references/usage-examples.md](references/usage-examples.md).
+
+中文使用说明见 [references/zh-cn.md](references/zh-cn.md)。
 
 ## Example Prompts
 
