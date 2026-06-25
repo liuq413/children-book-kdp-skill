@@ -1,0 +1,8 @@
+interface:
+  display_name: "Children's Book KDP"
+  short_description: "Create children's picture books and KDP-ready workflows."
+  brand_color: "#F59E0B"
+  default_prompt: "Use $children-book-kdp to build a children's picture book from idea to Amazon KDP-ready plan."
+
+policy:
+  allow_implicit_invocation: true
